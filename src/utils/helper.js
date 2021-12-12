@@ -2,8 +2,8 @@ import axios from 'axios'
 
 // 向後端確認後再修正
 // const baseURL = 'https://alphitter-api-server.herokuapp.com/api/'
-// const baseURL = 'https://alphitter-chatroom-api.herokuapp.com/api'
-const baseURL = 'http://localhost:3000/api/'
+const baseURL = 'https://alphitter-chatroom-api.herokuapp.com/api'
+// const baseURL = 'http://localhost:3000/api/'
 
 const axiosInstance = axios.create({
   baseURL
